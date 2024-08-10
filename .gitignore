@@ -71,5 +71,3 @@ dump.rdb
 
 # Ignore the celery beat schedule file
 celerybeat-schedule
-
-files/*.csv
