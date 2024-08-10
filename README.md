@@ -7,8 +7,9 @@ A small Pokémon Battle Simulator built with Flask, designed to simulate battles
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
+- [API Documentation](#api-documentation)
 - [Demo](#demo)
+- [UML Diagram](#uml-diagram)
 
 ## Features
 
@@ -33,8 +34,8 @@ A small Pokémon Battle Simulator built with Flask, designed to simulate battles
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/pokemon-battle-simulator.git
-    cd pokemon-battle-simulator
+    git clone https://github.com/rushikesh-shinde-pyd/PokemonBattle.git
+    cd PokemonBattle
     ```
 
 2. Create and activate a virtual environment:
@@ -78,11 +79,9 @@ python app.py
 ```
 2. Access the API at `http://127.0.0.1:5000`.
 
-## API Endpoints
+## API Documentation
 
-- `GET /v1/battle`: Initiate a battle between two Pokémon.
-- `GET /v1/get_battle_status`: Retrieve the status of a specific battle.
-- `GET /v1/pokemons`: Retrieve a paginated list of Pokémon.
+For a detailed view of the API endpoints, including request and response examples, visit the [ API Documentation](https://documenter.getpostman.com/view/9822314/2sA3s3GqyF).
 
 ## Logging
 
@@ -95,3 +94,7 @@ To test the application, you can use tools like `Postman` to interact with the A
 ## Demo
 
 See the Pokémon Battle Simulator in action with this [demo video](https://www.awesomescreenshot.com/video/30377833?key=eba8e82a8be3593939c8d56e79b1b6ad).
+
+## UML Diagram
+
+[Diagram](https://lucid.app/lucidchart/a633beac-0341-425e-9d1b-ae763a2d4aaa/edit?viewport_loc=-3093%2C-1042%2C4168%2C1681%2C0_0&invitationId=inv_da07aca5-9b22-49e2-bfd0-06b966ddf38d)
